@@ -23,7 +23,7 @@
 | 4 bytes per entry | Station ID | |
 | 4 bytes | Linked systems count | |
 | 4 bytes per entry | System ID | Make sure to link systems both ways |
-| 4 bytes | Unknown | Always 0x3, maybe a list size? |
+| 4 bytes | Unknown | Always 0x3, maybe a list size? Code references this data as "forbidden goods". |
 | 4 bytes | Unknown | Always 0x0 |
 | 4 bytes | Unknown | Always 0x1 |
 | 4 bytes | Unknown | Always 0x2 |
