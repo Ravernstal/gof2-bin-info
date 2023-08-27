@@ -54,7 +54,13 @@ The attributes are as follows:
 | 41 | Effect ms (emergency system) | |
 | 42 | Effect ms (time extender) | |
 | 43 | Loading speed ms (time extender) | |
-| 44 | Unknown | Maybe related to a mission? Seems to roughly correspond to 0x1 = Vossk-related, 0x0 = others |
-| 45 | Unknown | |
-
-Note that attribute ID 21 is not used by any item.
+| 50 | Magnitude (plasma collector) | |
+| 52 | Capacity (gamma shield) | |
+| 53 | Range (repair beam) | |
+| 54 | Effect (repair beam) | |
+| 55 | Count (repair beam) | |
+| 56 | Effect (ion missile) | |
+| 57 | Show info? (spectral filter) | 0x0 = false, 0x1 = true |
+| 58 | Show on radar? (spectral filter) | 0x0 = false, 0x1 = true |
+| 59 | Consumption (shield injector) | |
+| 60 | Vossk item? | 0x0 = false, 0x1 = true |
