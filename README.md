@@ -5,4 +5,5 @@
 * [ships.bin](ships.md)
 * [stations.bin](stations.md)
 * [systems.bin](systems.md)
+* [wanted.bin](wanted.md)
 * [weapons*.bin](weapons.md)
