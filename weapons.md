@@ -26,5 +26,7 @@ If the position type is 0x3 (an engine), then the following fields will also be 
 | 4 | Float | Engine intensity (Y) | |
 | 4 | Float | Engine intensity (Z) | |
 
-In versions of the game which have both the Valkyrie and Supernova DLCs, there are 59 entries defined in this file.
-This file is little-endian.
+## Notes
+
+* There are 59 entries defined in this file.
+* This file is little-endian.
