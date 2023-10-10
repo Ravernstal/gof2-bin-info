@@ -78,3 +78,4 @@ The known attributes IDs are as follows:
 
 In versions of the game which have both the Valkyrie and Supernova DLCs, there are 233 items defined in this file.
 Item names can be found in the lang files starting at index 1274.
+This file is big-endian.
