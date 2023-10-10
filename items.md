@@ -75,3 +75,6 @@ The known attributes IDs are as follows:
 | 58 | Show on radar? (spectral filter) | Value of 0x0 = false, 0x1 = true |
 | 59 | Consumption (shield injector) | |
 | 60 | Vossk item? | Value of 0x0 = false, 0x1 = true |
+
+In versions of the game which have both the Valkyrie and Supernova DLCs, there are 233 items defined in this file.
+Item names can be found in the lang files starting at index 1274.
