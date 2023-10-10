@@ -19,3 +19,4 @@ Ship names can be found in the lang files starting at index 913.
 The ships with IDs 13, 14, and 15 are the Vossk freighter, Terran battlecruiser, and Nivelian freighter respectively.
 All three have the exact same stats according to the file.
 In order to play as these ships, new entries will need to be added to `weapons*.bin`.
+This file is big-endian.
