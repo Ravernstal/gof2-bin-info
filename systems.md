@@ -26,5 +26,5 @@ Each entry has the following format:
 
 ## Notes
 
-* In versions of the game which have both the Valkyrie and Supernova DLCs, there are 34 systems defined in this file.
+* There are 34 systems defined in this file.
 * This file is big-endian.
