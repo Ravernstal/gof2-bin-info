@@ -2,11 +2,9 @@
 
 `items.bin` contains a list of items, their attributes, and their blueprint ingredients (if they are a blueprint item).
 Each entry consists of three lists.
-A list in this file consists of a 4 byte length `n`, and then `n` 4 byte entries.
 The first is a list of item IDs used to create this item from a blueprint (if this item is not a blueprint item, this list will be empty and the length will be zero).
 The second is a list of blueprint item counts, each corresponding to the item ID in the previous list (again, if this is not a blueprint item, this list will be empty).
-The final list is a list of key-value pairs.
-Each key corresponds to an attribute ID, and the value is the value for that attribute.
+The final list is a list of key-value pairs where each key corresponds to an attribute ID, and the value is the value for that attribute.
 The format of each item entry is as follows:
 
 | Size (Bytes) | Data Type | Name | Notes |
@@ -76,6 +74,8 @@ The known attributes IDs are as follows:
 | 59 | Consumption (shield injector) | |
 | 60 | Vossk item? | Value of 0x0 = false, 0x1 = true |
 
-In versions of the game which have both the Valkyrie and Supernova DLCs, there are 233 items defined in this file.
-Item names can be found in the lang files starting at index 1274.
-This file is big-endian.
+## Notes
+
+* Item names can be found in the lang files starting at index 1274.
+* There are 233 items defined in this file.
+* This file is big-endian.
