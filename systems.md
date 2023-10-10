@@ -1,29 +1,30 @@
-# systems.bin
+# systems.bin - Solar Systems
 
-`systems.bin` contains a list of solar systems in the game. Each entry has the following format:
+`systems.bin` contains a list of solar systems in the game.
+Each entry has the following format:
 
-| Size | Name | Description |
-| --- | --- | --- |
-| 1 byte | Separator | Always 0x0 |
-| 1 byte | Name length | |
-| Variable | Name | In UTF-8 format |
-| 4 bytes | Risk level | 0x0 = dangerous, 0x1 = risky, 0x2 = average, 0x3 = secure |
-| 4 bytes | Unlocked at start | Whether or not the system is visible at the start of the game. Either 0x0 or 0x1 |
-| 4 bytes | Faction | 0x0 = Terran, 0x1 = Vossk, 0x2 = Nivelian, 0x3 = Midorian |
-| 4 bytes | Map X coordinate | |
-| 4 bytes | Map Y coordinate | |
-| 4 bytes | Map Z coordinate | |
-| 4 bytes | Jumpgate station ID | Station ID of the planet with a jumpgate, or 0xFFFFFFFF for systems without one e.g. Mido |
-| 4 bytes | Star colour ID | 0x0 = green, 0x9 = white |
-| 4 bytes | Unknown | Always 0x3, maybe a list size? |
-| 4 bytes | Unknown | |
-| 4 bytes | Unknown | |
-| 4 bytes | Unknown | |
-| 4 bytes | Planet/station count | No system in the game has more than 5 stations |
-| 4 bytes per entry | Station ID | |
-| 4 bytes | Linked systems count | |
-| 4 bytes per entry | System ID | Make sure to link systems both ways |
-| 4 bytes | Unknown | Always 0x3, maybe a list size? Code references this data as "forbidden goods". |
-| 4 bytes | Unknown | Always 0x0 |
-| 4 bytes | Unknown | Always 0x1 |
-| 4 bytes | Unknown | Always 0x2 |
+| Size (Bytes) | Data Type | Name | Notes |
+| --- | --- | --- | --- |
+| 2 | Integer | Name length (`n`) | |
+| `n` | String | Name | UTF-8 encoded |
+| 4 | Integer | Risk level | 0x0 = dangerous, 0x1 = risky, 0x2 = average, 0x3 = secure |
+| 4 | Boolean | Unlocked at start | Whether or not the system is visible at the start of the game. Either 0x0 or 0x1 |
+| 4 | Integer | Faction | 0x0 = Terran, 0x1 = Vossk, 0x2 = Nivelian, 0x3 = Midorian |
+| 4 | Integer | Map X coordinate | |
+| 4 | Integer | Map Y coordinate | |
+| 4 | Integer | Map Z coordinate | |
+| 4 | Integer | Jumpgate station ID | Station ID of the planet with a jumpgate, or 0xFFFFFFFF (-1) for systems without one e.g. Mido. Stations are defined in [stations.bin](stations.md) |
+| 4 | Integer | Star colour ID | 0x0 = green, 0x9 = white |
+| 4 | Integer | Unknown array length (`a`) | Always 0x3 |
+| 4 x `a` | Integer | Unknown | |
+| 4 | Integer | Number of planets/stations (`p`) | No system in the game has more than 5 planets. |
+| 4 x `p` | Integer | Station ID | Stations are defined in [stations.bin](stations.md) |
+| 4 | Integer | Number of linked systems (`s`) | |
+| 4 x `s` | Integer | System ID | Systems should be linked both ways |
+| 4 | Integer | Unknown array length (`b`) | Always 0x3 |
+| 4 x `b` | Integer | Unknown | Always 0x0, then 0x1, then 0x2 |
+
+## Notes
+
+* In versions of the game which have both the Valkyrie and Supernova DLCs, there are 34 systems defined in this file.
+* This file is big-endian.
