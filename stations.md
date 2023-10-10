@@ -12,5 +12,7 @@ Each entry has the following format:
 | 4 | Integer | Tech level | 1-10 |
 | 4 | Integer | Planet background ID | |
 
-In versions of the game which have both the Valkyrie and Supernova DLCs, there are 135 stations defined in this file.
-This file is big-endian.
+## Notes
+
+* There are 135 stations defined in this file.
+* This file is big-endian.
