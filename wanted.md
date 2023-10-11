@@ -21,7 +21,7 @@ Each entry has the following format:
 | 4 | Integer | Required mission ID | |
 | 4 | Integer | Number of wingmen | |
 | 4 | Integer | Number of image parts (`n`) | Always 5 |
-| 4 x `n` | Integer | Image part ID | |
+| `n` | Integer | Image part ID | |
 
 ## Notes
 
