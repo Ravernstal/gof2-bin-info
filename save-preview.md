@@ -8,9 +8,9 @@ This information has the following format:
 | 8 | Integer | Play time (ms) | |
 | 4 | Integer | Credits | |
 | 4 | Integer | Station name length (`a`) | |
-| 2 x `a` | String | Station name | UTF-16 encoded |
+| `a` | String | Station name | UTF-16 encoded |
 | 4 | Integer | System name length (`y`) | |
-| 2 x `y` | String | System name | UTF-16 encoded |
+| `y` | String | System name | UTF-16 encoded |
 | 4 | Integer | Campaign mission ID | |
 | 4 | Integer | Level | |
 | 4 | Float | Difficulty | |
