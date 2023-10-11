@@ -2,6 +2,7 @@
 
 ## Bin Files
 
+* [Agents (agents.bin)](agents.md)
 * [Items (items.bin)](items.md)
 * [Most Wanted (wanted.bin)](wanted.md)
 * [Names (names_*.bin)](names.md)
