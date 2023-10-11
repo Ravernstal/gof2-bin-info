@@ -17,7 +17,7 @@ Each entry has the following format:
 | 4 | Integer | Star colour ID | 0x0 = green, 0x9 = white |
 | 4 | Integer | Unknown array length (`a`) | Always 0x3 |
 | 4 x `a` | Integer | Unknown | |
-| 4 | Integer | Number of planets/stations (`p`) | No system in the game has more than 5 planets. |
+| 4 | Integer | Number of planets/stations (`p`) | No system in the game has more than 5 planets |
 | 4 x `p` | Integer | Station ID | Stations are defined in [stations.bin](stations.md) |
 | 4 | Integer | Number of linked systems (`s`) | |
 | 4 x `s` | Integer | System ID | Systems should be linked both ways |
