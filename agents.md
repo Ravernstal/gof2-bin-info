@@ -16,8 +16,8 @@ Each entry has the following format:
 | 4 | Integer | Sell blueprint ID | The item ID of the blueprint being sold, or -1 if none. Items are defined in [items.bin](items.md) |
 | 4 | Integer | Sell mod ID | The modification ID of the mod being sold, or -1 if none |
 | 4 | Integer | Sell price | |
-| 4 | Integer | Number of image parts (`n`) | Always 5 |
-| `n` | Integer | Image part ID | |
+| 4 | Integer | Number of image parts (`i`) | Always 5 |
+| `i` | Integer | Image part ID | |
 
 ## Notes
 
