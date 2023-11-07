@@ -6,7 +6,7 @@ Each entry has the following format:
 
 | Size (Bytes) | Data Type | Name | Notes |
 | --- | --- | --- | --- |
-| 4 | Boolean | Unknown | |
+| 4 | Boolean | Unknown | Either 0x0 or 0x1 |
 | 4 | Boolean | Show in Terran systems | Either 0x0 or 0x1 |
 | 4 | Boolean | Show in Vossk systems | Either 0x0 or 0x1 |
 | 4 | Boolean | Show in Nivelian systems | Either 0x0 or 0x1 |
