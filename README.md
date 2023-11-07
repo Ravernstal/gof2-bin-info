@@ -6,6 +6,7 @@
 * [Items (items.bin)](items.md)
 * [Most Wanted (wanted.bin)](wanted.md)
 * [Names (names_*.bin)](names.md)
+* [News Items (ticker.bin)](ticker.md)
 * [Ships (ships.bin)](ships.md)
 * [Ship Weapon/Engine Positions (weapons*.bin)](weapons.md)
 * [Stations (stations.bin)](stations.md)
