@@ -16,5 +16,6 @@ Each entry has the following format:
 
 ## Notes
 
+* The text for each of these news items can be found in the lang files starting at index 3262. Text replacement strings can be found at preceding indexes.
 * There are 59 news items defined in this file.
 * This file is big-endian.
