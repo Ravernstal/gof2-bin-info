@@ -15,6 +15,6 @@
 
 ## Save Files
 
-* [Save Game Preview (gof2_save_game_preview_*.bin)](save-preview.md)
+* [Save Game Preview (gof2_save_game_preview_*)](save-preview.md)
 
 Also check out the [Galaxy on Fire Wiki](https://galaxyonfire.wiki.gg/wiki/Modifications#File_Formats-0)!
