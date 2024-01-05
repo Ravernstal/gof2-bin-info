@@ -1,9 +1,10 @@
 # Galaxy on Fire 2 Data File Structures
 
-## Bin Files
+## BIN Files
 
 * [Agents (agents.bin)](agents.md)
 * [Items (items.bin)](items.md)
+* [Language Strings (*.lang)](lang.md)
 * [Most Wanted (wanted.bin)](wanted.md)
 * [Names (names_*.bin)](names.md)
 * [News Items (ticker.bin)](ticker.md)
