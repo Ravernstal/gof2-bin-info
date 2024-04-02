@@ -63,7 +63,9 @@ The known attributes IDs are as follows:
 | 41 | Effect ms (emergency system) | |
 | 42 | Effect ms (time extender) | |
 | 43 | Loading speed ms (time extender) | |
+| 49 | Speed (plasma collector) | |
 | 50 | Magnitude (plasma collector) | |
+| 51 | Range (plasma collector) | |
 | 52 | Capacity (gamma shield) | |
 | 53 | Range (repair beam) | |
 | 54 | Effect (repair beam) | |
@@ -73,6 +75,7 @@ The known attributes IDs are as follows:
 | 58 | Show on radar? (spectral filter) | Value of 0x0 = false, 0x1 = true |
 | 59 | Consumption (shield injector) | |
 | 60 | Vossk item? | Value of 0x0 = false, 0x1 = true |
+| 61 | Station | Station ID where the item is guaranteed to be sold |
 
 ## Notes
 
