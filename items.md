@@ -63,8 +63,8 @@ The known attributes IDs are as follows:
 | 41 | Effect ms (emergency system) | |
 | 42 | Effect ms (time extender) | |
 | 43 | Loading speed ms (time extender) | |
-| 49 | Speed (plasma collector) | |
-| 50 | Magnitude (plasma collector) | |
+| 49 | Speed (plasma collector) | Multiplied by 50 in-game |
+| 50 | Magnitude (plasma collector) | Multiplied by 0.1 in-game |
 | 51 | Range (plasma collector) | |
 | 52 | Capacity (gamma shield) | |
 | 53 | Range (repair beam) | |
